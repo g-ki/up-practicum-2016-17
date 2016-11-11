@@ -22,6 +22,9 @@ bool twinPrimes(int, int);
 bool sexyPrimes(int, int);
 bool weirdPrimes(int, int, int);
 
+bool triangleInequality(double, double, double);
+bool isTriangle(double, double, double);
+
 int main()
 {
     cout << abs(3) << " " << abs(-3) << endl;
@@ -37,6 +40,8 @@ int main()
 
     cout << twinPrimes(5, 7) << " " << twinPrimes(17, 23) << endl;
     cout << sexyPrimes(5, 11) << " " << sexyPrimes(5, 7) << endl;
+
+    cout << isTriangle(4, 5, 6) << " " << isTriangle(1, 1, 2) << endl;
 
     return 0;
 }
